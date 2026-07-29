@@ -1,0 +1,127 @@
+# 📷 Canon Visual Director (v4.0)
+
+[![Language](https://img.shields.io/badge/Language-中文-blue.svg)](README.md)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+> **Visual Metaphor & Canon Optics Driven Cover Art Agent Skill**  
+> An elite AI Cover Art & Visual Concept Agent combining four master mindsets: **Screenwriter**, **Visual Metaphor Director**, **Advertising Creative Director**, and **Canon Director of Photography (DOP)**.
+
+---
+
+## 🌟 Philosophy: From "Literal Descriptions" to "Visual Metaphors"
+
+Traditional AI prompt tools often fall into the trap of literal scene descriptions or meaningless camera spec stacking. **Canon Visual Director 4.0** introduces advertising-grade **Key Visual (KV)** concepts. Instead of plainly recording the text, it transforms abstract business concepts, tech trends, and human emotions into high-impact **Visual Metaphors** paired with realistic Canon EOS optical rendering to achieve a 0.5-second visual hook.
+
+---
+
+## 🧠 The 4 Master Mindsets & 5-Layer Creative Architecture
+
+This skill follows a strict 5-layer creative deduction pipeline:
+
+```text
+[L1: Screenwriter] ──> [L2: Visual Metaphor & KV] ──> [L3: 12 Triggers] ──> [L4: Canon Optics & Typography] ──> [L5: Multi-Platform Strategy]
+```
+
+1. 📖 **The Screenwriter**: Deconstructs text into core drama, key tension, and a concise 1-sentence logline.
+2. 💡 **Creative Director & Metaphor Master**: Transcends plain narrative to design 0.5-second cognitive pause concepts and abstract visual metaphors.
+3. 🧠 **Visual Marketer**: Applies **12 Structured Visual Triggers** to engineer audience retention and social virality.
+4. 📷 **Canon DOP (Director of Photography)**: Controls **Canon EOS System Optics** (RF L-series bokeh, signature color science) and **Organic Typography Protocol** to eliminate AI synthetic/plastic looks.
+
+---
+
+## ⚡ 12 Structured Visual Triggers Model
+
+Built-in social psychology trigger engines:
+
+1. 🪞 **`Identity Alignment`**: Collective memories and iconic tools of target demographics (e.g., developer mechanical keyboards and cold espresso).
+2. 👁️ **`Voyeuristic Gaze`**: Fourth-wall-breaking angles revealing backstage key negotiations or emotional breakdowns.
+3. ⚠️ **`Peril & Chaos`**: Cliff edges, final countdown seconds, or pre-collapse atmosphere.
+4. 👑 **`Power & Hierarchy`**: Extreme high/low angle views showing corporate pressure vs. individual insignificance.
+5. 💰 **`Capital & Wealth`**: High-rise glass facades, cold compute infrastructure, and capital flow metaphors.
+6. 🌌 **`Absolute Isolation`**: Vast, cold backgrounds contrasting with a microscopic individual.
+7. 📏 **`Scale Contrast`**: Extreme physical or conceptual scale disparities.
+8. ❓ **`The Unknown & Mystery`**: The moment a black box opens, or light-and-shadow cliffhangers.
+9. 📉 **`Failure & Glitch`**: Glitch artifacts, system crashes, or reset moments after thousands of trials.
+10. 🔄 **`Reversal & Irony`**: Absurd contrasts and dramatic irony.
+11. ⏱️ **`Ticking Clock & Pressure`**: Suffocating tension before ultimate deadlines.
+12. 💡 **`The Genesis Moment`**: The epiphany moment when the first ray of light pierces through darkness.
+
+---
+
+## 📦 Installation & Setup
+
+### 1. Clone into your Agent / OpenClaw Skills Folder
+Clone this repository directly into your local AI Agent skills directory:
+
+```bash
+git clone https://github.com/<YOUR_GITHUB_USERNAME>/canon-visual-director.git
+```
+
+### 2. Repository Structure
+```text
+canon-visual-director/
+├── SKILL.md          # Core Agent Instructions & Prompt Rules
+├── README.md         # Chinese Documentation
+├── README_EN.md      # English Documentation
+├── CONTRIBUTING.md   # Contribution Guidelines
+├── LICENSE           # MIT License
+├── .gitignore        # Git Ignore Configuration
+└── assets/           # Showcase Gallery Assets
+```
+
+---
+
+## 🚀 Triggers & Usage
+
+Trigger this skill in supported AI Agent frameworks (e.g., Antigravity, OpenClaw, Claude Code, etc.) using natural language prompts or by sharing an article:
+
+- **Natural Triggers**:
+  - `Canon cover design` / `Canon visual style`
+  - `Canon article cover` / `Photorealistic Canon prompt`
+  - `佳能封面设计` / `佳能风格封面`
+
+---
+
+## 💡 Visual Showcase Gallery & Output Format
+
+The agent automatically evaluates 3 distinct creative angles and outputs Midjourney / Stable Diffusion prompts formatted with Canon optics and ratio specs (defaulting to WeChat / Editorial `--ar 2.35:1`):
+
+### 🖼️ Visual Metaphor Showcase Gallery
+
+| Concept 1: Advertising Key Visual Concept | Concept 2: Dramatic Tension & Cognitive Friction |
+| :---: | :---: |
+| ![Concept 1](assets/example_cover_1.webp) | ![Concept 2](assets/example_cover_2.webp) |
+
+| Concept 3: Canon Optics & Organic Typography | Concept 4: Capital & Corporate Power Hierarchy |
+| :---: | :---: |
+| ![Concept 3](assets/example_cover_3.webp) | ![Concept 4](assets/example_cover_4.webp) |
+
+| Concept 5: The Genesis Moment & Dawn Light |
+| :---: |
+| ![Concept 5](assets/example_cover_5.webp) |
+
+---
+
+### 📝 Standard Prompt Output Structure
+
+```text
+### Concept 1: 【Key Visual Concept】 Thought Pain Reliever
+
+【English Prompt】
+Shot on Canon EOS R3 with Canon RF 85mm f/1.2L USM DS lens, minimalist advertising Key Visual concept. On a dark minimalist black marble surface, a crystal-clear glass medicine capsule rests in sharp focus. Encapsulated inside is a microscopic metallic human brain, its intricate gears jammed by a prominent red physical pause button symbol (⏸️). Deeply engraved into the marble surface is organic physical typography reading "PAIN RELIEVER". Lit with Canon's signature high-end studio lighting, single softbox casting crisp highlights. Ultra-shallow depth of field. Pure photographic realism, --ar 2.35:1
+
+【Chinese Prompt】
+佳能 EOS R3 拍摄，85mm f/1.2L USM DS 镜头，广告级 Key Visual 视觉概念。在极简黑色大理石台面上，静止平放着一颗高透光玻璃材质的透明医药胶囊。胶囊内部封存着一颗微型金属大脑，大脑内部的精密齿轮被一个红色的物理休止符按钮（⏸️）卡住。大理石表面以雕刻工艺深度嵌入着中文“思想止痛药”。单侧柔光箱勾勒出玻璃的高光轮廓，焦外极其柔美。极简、冷酷、真实摄影质感，--ar 2.35:1
+```
+
+---
+
+## 🤝 Contributing
+
+We welcome Pull Requests to refine lens profiles or add new Visual Triggers! Please check [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines.
+
+---
+
+## 📄 License
+
+Distributed under the [MIT License](LICENSE).
