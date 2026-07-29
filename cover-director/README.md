@@ -50,25 +50,39 @@
 
 ---
 
-## 📦 安装与配置
+## 📦 安装与配置 (Installation & Setup)
 
-### 1. 克隆到 Agent/OpenClaw 技能目录
-将本仓库克隆至你的 Agent Skills 存储路径中：
+### 🤖 方式 A：让 AI Agent 为你自主一键安装 (AI Autonomous Installation)
 
-```bash
-git clone https://github.com/<YOUR_GITHUB_USERNAME>/cover-director.git
+你无需手动敲命令，只需将以下指令直接复制给你的 AI 助手（如 Antigravity, OpenClaw, Claude Code 等）：
+
+> **发送给 AI 的指令：**  
+> *"请帮我将 `https://github.com/lwgscau2024/leiskill` 仓库中的 `cover-director` 技能自动下载并安装到全局 skills 目录下。"*
+
+---
+
+### 💻 方式 B：终端一键命令行安装 (One-Liner CLI Installation)
+
+#### 🪟 Windows (PowerShell 一键安装)：
+```powershell
+$target="$HOME\.gemini\antigravity-cli\skills"; if (-not (Test-Path $target)) { New-Item -ItemType Directory -Path $target -Force }; git clone --depth 1 https://github.com/lwgscau2024/leiskill.git "$env:TEMP\leiskill_temp"; Copy-Item -Path "$env:TEMP\leiskill_temp\cover-director" -Destination "$target\cover-director" -Recurse -Force; Remove-Item "$env:TEMP\leiskill_temp" -Recurse -Force; Write-Host "✅ cover-director 技能已成功安装至: $target\cover-director" -ForegroundColor Green
 ```
 
-### 2. 目录文件结构
-```text
-cover-director/
-├── SKILL.md          # 核心 Agent 指令与提示词规范
-├── README.md         # 中文项目说明文档
-├── README_EN.md      # 英文项目说明文档
-├── CONTRIBUTING.md   # 社区贡献指南
-├── LICENSE           # MIT 开源许可协议
-├── .gitignore        # Git 忽略配置文件
-└── assets/           # 示例效果画廊与静态资产
+#### 🐧 macOS / Linux (Bash 一键安装)：
+```bash
+TARGET_DIR="$HOME/.gemini/antigravity-cli/skills" && mkdir -p "$TARGET_DIR" && git clone --depth 1 https://github.com/lwgscau2024/leiskill.git /tmp/leiskill_temp && cp -r /tmp/leiskill_temp/cover-director "$TARGET_DIR/" && rm -rf /tmp/leiskill_temp && echo "✅ cover-director installed successfully to $TARGET_DIR/cover-director"
+```
+
+---
+
+### 🛠️ 方式 C：常规分步克隆与手动配置
+
+```bash
+# 克隆仓库
+git clone https://github.com/lwgscau2024/leiskill.git
+
+# 复制 cover-director 目录至你的 Agent skills 文件夹
+cp -r leiskill/cover-director ~/.gemini/antigravity-cli/skills/
 ```
 
 ---

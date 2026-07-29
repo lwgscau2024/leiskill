@@ -53,23 +53,37 @@ Built-in social psychology trigger engines:
 
 ## 📦 Installation & Setup
 
-### 1. Clone into your Agent / OpenClaw Skills Folder
-Clone this repository directly into your local AI Agent skills directory:
+### 🤖 Option A: AI Agent Autonomous Installation
 
-```bash
-git clone https://github.com/<YOUR_GITHUB_USERNAME>/cover-director.git
+Simply copy and paste the prompt below to your AI assistant (e.g. Antigravity, OpenClaw, Claude Code, etc.):
+
+> **Prompt for your AI Agent:**  
+> *"Please automatically download and install the `cover-director` skill from repository `https://github.com/lwgscau2024/leiskill` into my global skills directory."*
+
+---
+
+### 💻 Option B: One-Liner CLI Installation
+
+#### 🪟 Windows (PowerShell One-Liner):
+```powershell
+$target="$HOME\.gemini\antigravity-cli\skills"; if (-not (Test-Path $target)) { New-Item -ItemType Directory -Path $target -Force }; git clone --depth 1 https://github.com/lwgscau2024/leiskill.git "$env:TEMP\leiskill_temp"; Copy-Item -Path "$env:TEMP\leiskill_temp\cover-director" -Destination "$target\cover-director" -Recurse -Force; Remove-Item "$env:TEMP\leiskill_temp" -Recurse -Force; Write-Host "✅ cover-director installed successfully to: $target\cover-director" -ForegroundColor Green
 ```
 
-### 2. Repository Structure
-```text
-cover-director/
-├── SKILL.md          # Core Agent Instructions & Prompt Rules
-├── README.md         # Chinese Documentation
-├── README_EN.md      # English Documentation
-├── CONTRIBUTING.md   # Contribution Guidelines
-├── LICENSE           # MIT License
-├── .gitignore        # Git Ignore Configuration
-└── assets/           # Showcase Gallery Assets
+#### 🐧 macOS / Linux (Bash One-Liner):
+```bash
+TARGET_DIR="$HOME/.gemini/antigravity-cli/skills" && mkdir -p "$TARGET_DIR" && git clone --depth 1 https://github.com/lwgscau2024/leiskill.git /tmp/leiskill_temp && cp -r /tmp/leiskill_temp/cover-director "$TARGET_DIR/" && rm -rf /tmp/leiskill_temp && echo "✅ cover-director installed successfully to $TARGET_DIR/cover-director"
+```
+
+---
+
+### 🛠️ Option C: Manual Clone
+
+```bash
+# Clone the repository
+git clone https://github.com/lwgscau2024/leiskill.git
+
+# Copy the cover-director skill folder to your Agent skills directory
+cp -r leiskill/cover-director ~/.gemini/antigravity-cli/skills/
 ```
 
 ---
