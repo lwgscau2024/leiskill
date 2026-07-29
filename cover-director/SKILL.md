@@ -56,6 +56,7 @@ description: >
   - 🔴 **佳能 EOS 体系 (Canon Optics - 默认首选与推荐基准)**：
     - **适用场景**：常规商业隐喻、爆款封面、人文故事、高质感人像。佳能招牌发色与红圈光学虚化在 AI 生图模型（特别是 ChatGPT 图像 2.0）中具备极强的画质激发力。
     - **标准 Prompt 前缀**：中文统一用 `佳能 EOS R3 拍摄，佳能 RF 85mm/50mm/35mm f/1.2L USM 红圈镜头`；英文统一用 `Shot on Canon EOS R3 with Canon RF 85mm/50mm/35mm f/1.2L lens`。
+    - **佳能色彩科学 (Canon Color Science)**：佳能招牌暖色肤色与微纹理（`Warm, organic human skin tones with micro-texture`）、柔和光学虚化（`soft optical bokeh`）与 RAW 传感器颗粒（`RAW sensor grain`），用于从光学发色层面消除 AI 塑料皮肤与磨皮假面感。
   - 🟢 **哈苏中画幅体系 (Hasselblad Medium Format - 奢华与极客物证)**：
     - **适用场景**：千亿资本、芯片算力、极客冷酷物证、奢侈极简场景。
     - **标准 Prompt 前缀**：`哈苏 X2D 100C 拍摄，中画幅极致微细节` / `Shot on Hasselblad X2D 100C medium format camera`。
