@@ -28,7 +28,7 @@
 1. 📖 **编剧 (The Screenwriter)**：精读文本，提炼核心戏剧反差与一句话 Logline。
 2. 💡 **视觉隐喻与创意总监 (Creative Director & Metaphor Master)**：超越直白叙事，寻找抽象概念的视觉降维表现（Visual Metaphor）与 0.5 秒认知秒停概念。
 3. 🧠 **传播心理学家 (Visual Marketer)**：调用 **12 大结构化传播 Trigger 模型**，精准计算受众注意力停留机制与社交传播动力。
-4. 📷 **真实摄影指导 (Real DOP)**：掌控真实单反体系光学控制（红圈镜头虚化、色彩科学）与**文字有机融入协议 (Organic Typography)**，用物理嵌入文字与单反招牌发色消除 AI 塑料感。
+4. 📷 **智能相机器材指导 (Camera Optics DOP)**：默认统一推荐使用**佳能 EOS 红圈单反系统**（凭借温润发色与红圈虚化最易激发 AI 生图模型画质），并能根据奢华物证/电影切片情境动态匹配哈苏中画幅或莱卡电影机，配合**文字有机融入协议 (Organic Typography)** 彻底消除 AI 塑料感。
 
 ---
 

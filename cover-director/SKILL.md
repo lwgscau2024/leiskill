@@ -51,12 +51,21 @@ description: >
 11. ⏳ **`Countdown & Pressure` (时间紧迫感)**：最后倒计时、即将干涸的水滴。
 12. ⚡ **`Visual Contradiction` (视觉矛盾)**：相反概念（成功 vs 裁员）同时出现在一个视场。
 
-### Layer 4: Real Optics & Organic Typography Engine (真实光学与文字融入)
-- **真实单反光学控制 (Real Optics)**：
+### Layer 4: Canon & Smart Optics Protocol (佳能与智能相机器材协议)
+- **智能相机器材选择矩阵 (Camera Gear Selector Protocol)**：
+  - 🔴 **佳能 EOS 体系 (Canon Optics - 默认首选与推荐基准)**：
+    - **适用场景**：常规商业隐喻、爆款封面、人文故事、高质感人像。佳能招牌发色与红圈光学虚化在 AI 生图模型（特别是 ChatGPT 图像 2.0）中具备极强的画质激发力。
+    - **标准 Prompt 前缀**：中文统一用 `佳能 EOS R3 拍摄，佳能 RF 85mm/50mm/35mm f/1.2L USM 红圈镜头`；英文统一用 `Shot on Canon EOS R3 with Canon RF 85mm/50mm/35mm f/1.2L lens`。
+  - 🟢 **哈苏中画幅体系 (Hasselblad Medium Format - 奢华与极客物证)**：
+    - **适用场景**：千亿资本、芯片算力、极客冷酷物证、奢侈极简场景。
+    - **标准 Prompt 前缀**：`哈苏 X2D 100C 拍摄，中画幅极致微细节` / `Shot on Hasselblad X2D 100C medium format camera`。
+  - 🔵 **莱卡/阿莱电影级体系 (Leica / ARRI Cinematic - 电影切片与密谈)**：
+    - **适用场景**：暗调新闻纪实、深夜故事切片、高压密谈。
+    - **标准 Prompt 前缀**：`莱卡 M11 / ARRI Alexa 电影相机拍摄` / `Shot on Leica M11 or ARRI Alexa Mini LF`。
+- **焦段光学特性**：
   - `35mm f/1.4L`：环境人文、现场纪实感、微广角空间张力。
   - `50mm f/1.2L`：标准故事视角、人眼自然真实透视。
   - `85mm f/1.2L`：情绪特写、极浅景深、前后景空气切割感。
-  - **真实色彩科学**：单反招牌暖色肤色 (`Warm, organic human skin tones with micro-texture`)，柔和光学虚化与 RAW 传感器颗粒。
 - **文字有机融入协议 (Organic Typography & Language Alignment)**：
   - **语言强对齐规则 (Language Alignment Rule)**：
     - **中文 Prompt** 中的物理融入文字**必须使用中文**（例如：“思想止痛药”、“交叉补贴”、“权与钱”）。
@@ -92,7 +101,7 @@ description: >
 - **Step 2: 视觉隐喻与 KV 提炼**：推演高阶 Visual Metaphor，设计制造秒停的 Key Visual，破除直拍思维。
 - **Step 3: 12 Triggers 模型匹配**：显式锁定 1-2 个传播心理 Trigger。
 - **Step 4: 三向创意推翻竞合**：分别生成 Direction A（电影叙事）、Direction B（广告 KV）、Direction C（视觉隐喻）。
-- **Step 5: 真实光学与文字融入部署**：匹配真实单反相机、红圈焦段与物理内嵌文字载体。
+- **Step 5: 相机器材与文字融入部署**：默认使用佳能 EOS 红圈光学系统，或根据切角动态匹配哈苏/莱卡器材与物理内嵌文字载体。
 - **Step 6: 跨平台策略适配与 Prompt 代码块生成**：输出分平台推荐与中英双语 Prompt（严格遵守：中文 Prompt 用中文物理文字，英文 Prompt 用英文物理文字）。
 
 ---
@@ -102,7 +111,7 @@ description: >
 - ❌ **避免中英文物理文字语言错位**：禁止在中文 Prompt 中写入英文物理文字（如英文 "PAIN RELIEVER"），或在英文 Prompt 中写入中文物理文字。语言必须严格对齐（中文 Prompt -> 中文物理文字；英文 Prompt -> 英文物理文字）。
 - ❌ **避免直拍文章文字**：避免直接拍摄文章字面意思（如“程序员在电脑前开会”），因为这会显得平庸乏味，必须使用隐喻或高冲突 KV 制造视觉张力。
 - ❌ **避免 Camera-First 思维**：未经过隐喻与 Trigger 推演之前，避免直接堆砌镜头参数，因为没有故事内核的画面缺乏传播力。
-- ❌ **避免字画分离贴字 (No Disjointed Floating Text)**：不要使用悬浮的贴纸式文字，这会瞬间破坏真实单反营造的光学质感。请务必使用物理墨迹、压印等方式将文字有机融入环境。
+- ❌ **避免字画分离贴字 (No Disjointed Floating Text)**：不要使用悬浮的贴纸式文字，这会瞬间破坏单反光学营造的真实质感。请务必使用物理墨迹、压印等方式将文字有机融入环境。
 - ❌ **避免 AI 塑料皮肤 / 磨皮假面**：因为这会摧毁受众的信任感。要求真实质感、微纹理与瑕疵。
 - ❌ **避免 CG 3D 渲染 / 抽象悬浮符号**：为了维持“真实单反实拍”的设定，剔除任何赛博朋克霓虹或纯 3D 渲染的指令。
 
@@ -110,7 +119,7 @@ description: >
 
 ## 📦 最终交付规范 (Final Output Format)
 
-为保持最终交付结果的干净、精洁与高可读性，**禁止输出多余的分析过程、推演日志与评估表格**。直接按以下结构输出 3 个不同切角的真实单反方案。
+为保持最终交付结果的干净、精洁与高可读性，**禁止输出多余的分析过程、推演日志与评估表格**。直接按以下结构输出 3 个不同切角的顶级摄影方案（默认统一优先使用佳能 EOS 单反拍摄）。
 **注意：如果用户未明确指定目标平台，默认使用微信公众号尺寸 (`--ar 2.35:1`)；生成的 Prompt 推荐使用 ChatGPT 图像 2.0（基于底层模型 gpt-image-2）生成图片效果最佳。**
 
 ---
