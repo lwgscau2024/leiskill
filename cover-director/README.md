@@ -1,16 +1,19 @@
-# 📷 Canon Visual Director (佳能创意总监 4.0)
+# 📷 Cover Director (文章封面总监 4.0)
 
 [![Language](https://img.shields.io/badge/Language-English-blue.svg)](README_EN.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-> **Visual Metaphor & Canon Optics Driven Cover Art Agent Skill**  
-> 兼具“编剧、视觉隐喻大师、广告创意总监、佳能摄影指导”四重灵魂的顶级文章封面图与视觉概念设计 Agent 技能。
+> **Visual Metaphor & Real Optics Driven Cover Art Agent Skill**  
+> 兼具“编剧、视觉隐喻大师、广告创意总监、真实摄影指导”四重灵魂的顶级文章封面图与视觉概念设计 Agent 技能。
 
 ---
 
 ## 🌟 核心理念：从“拍文章”升维至“拍隐喻与认知冲突”
 
-传统的 AI 提示词生成工具往往陷入“直白叙事”或“镜头参数堆砌”的误区。**Canon Visual Director 4.0** 引入广告级 **Key Visual (KV)** 概念，拒绝直白记录文本，而是将抽象商业概念/情绪转化为高冲击力的**视觉隐喻（Visual Metaphor）**，并配合佳能单反红圈镜头的极致真实光学质感，打造 0.5 秒停顿的封面冲击力。
+传统的 AI 提示词生成工具往往陷入“直白叙事”或“镜头参数堆砌”的误区。**Cover Director 4.0** 引入广告级 **Key Visual (KV)** 概念，拒绝直白记录文本，而是将抽象商业概念/情绪转化为高冲击力的**视觉隐喻（Visual Metaphor）**，并配合单反红圈镜头的极致真实光学质感，打造 0.5 秒停顿的封面冲击力。
+
+> [!TIP]
+> **💡 最佳生图效果推荐**：本技能生成的提示词，使用 **ChatGPT 图像 2.0（基于底层模型 gpt-image-2）** 生成图片效果最佳！
 
 ---
 
@@ -19,13 +22,13 @@
 本技能由以下五层决策架构升维推演：
 
 ```text
-[L1: 编剧解构] ──> [L2: 视觉隐喻与 KV] ──> [L3: 12 Triggers 模型] ──> [L4: 佳能光学与文字融入] ──> [L5: 跨平台策略与 Prompt]
+[L1: 编剧解构] ──> [L2: 视觉隐喻与 KV] ──> [L3: 12 Triggers 模型] ──> [L4: 真实光学与文字融入] ──> [L5: 跨平台策略与 Prompt]
 ```
 
 1. 📖 **编剧 (The Screenwriter)**：精读文本，提炼核心戏剧反差与一句话 Logline。
 2. 💡 **视觉隐喻与创意总监 (Creative Director & Metaphor Master)**：超越直白叙事，寻找抽象概念的视觉降维表现（Visual Metaphor）与 0.5 秒认知秒停概念。
 3. 🧠 **传播心理学家 (Visual Marketer)**：调用 **12 大结构化传播 Trigger 模型**，精准计算受众注意力停留机制与社交传播动力。
-4. 📷 **佳能摄影指导 (Canon DOP)**：掌控佳能 EOS 体系光学控制（红圈镜头虚化、色彩科学）与**文字有机融入协议 (Organic Typography)**，用物理嵌入文字与佳能招牌发色消除 AI 塑料感。
+4. 📷 **真实摄影指导 (Real DOP)**：掌控真实单反体系光学控制（红圈镜头虚化、色彩科学）与**文字有机融入协议 (Organic Typography)**，用物理嵌入文字与单反招牌发色消除 AI 塑料感。
 
 ---
 
@@ -53,12 +56,12 @@
 将本仓库克隆至你的 Agent Skills 存储路径中：
 
 ```bash
-git clone https://github.com/<YOUR_GITHUB_USERNAME>/canon-visual-director.git
+git clone https://github.com/<YOUR_GITHUB_USERNAME>/cover-director.git
 ```
 
 ### 2. 目录文件结构
 ```text
-canon-visual-director/
+cover-director/
 ├── SKILL.md          # 核心 Agent 指令与提示词规范
 ├── README.md         # 中文项目说明文档
 ├── README_EN.md      # 英文项目说明文档
@@ -75,16 +78,16 @@ canon-visual-director/
 在支持 Agent/Skill 机制的对话框架（如 Antigravity, OpenClaw, Claude Code 等）中，使用以下任意关键词或直接输入文章内容即可唤醒：
 
 - **自然语言触发词**：
-  - `佳能封面设计` / `佳能封面`
-  - `佳能设计` / `佳能单反封面`
-  - `佳能真实封面` / `佳能风格封面`
-  - `佳能配图` / `设计佳能封面提示词`
+  - `cover-director` / `文章封面总监`
+  - `封面总监` / `文章封面`
+  - `爆款封面` / `封面图提示词`
+  - `文章封面设计` / `封面配图`
 
 ---
 
 ## 💡 视觉生成真实效果与输出示例 (Showcase Gallery)
 
-技能将自动输出 3 个不同切角的佳能单反方案，包含中文/英文 Prompt 与参数设定（默认使用微信公众号 `--ar 2.35:1` 画幅）：
+技能将自动输出 3 个不同切角的真实单反方案，包含中文/英文 Prompt 与参数设定（默认使用微信公众号 `--ar 2.35:1` 画幅）：
 
 ### 🖼️ 真实生成效果画廊 (Visual Metaphor Showcase)
 
@@ -92,7 +95,7 @@ canon-visual-director/
 | :---: | :---: |
 | ![Concept 1](assets/example_cover_1.webp) | ![Concept 2](assets/example_cover_2.webp) |
 
-| 案例 3：【佳能红圈光学质感】物理字融入 | 案例 4：【资本/权力位阶隐喻】巨头视角 |
+| 案例 3：【真实红圈光学质感】物理字融入 | 案例 4：【资本/权力位阶隐喻】巨头视角 |
 | :---: | :---: |
 | ![Concept 3](assets/example_cover_3.webp) | ![Concept 4](assets/example_cover_4.webp) |
 

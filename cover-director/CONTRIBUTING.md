@@ -1,8 +1,8 @@
-# 🤝 Contributing to Canon Visual Director
+# 🤝 Contributing to Cover Director
 
-First off, thank you for considering contributing to **Canon Visual Director**! It's contributions like yours that make this AI Agent skill framework better for everyone in the open-source community.
+First off, thank you for considering contributing to **Cover Director**! It's contributions like yours that make this AI Agent skill framework better for everyone in the open-source community.
 
-感谢你考虑为 **Canon Visual Director** 贡献力量！正是有了社区的参与，这个 AI 视觉 Agent 技能才能不断演进。
+感谢你考虑为 **Cover Director (文章封面总监)** 贡献力量！正是有了社区的参与，这个 AI 视觉 Agent 技能才能不断演进。
 
 ---
 
@@ -11,9 +11,9 @@ First off, thank you for considering contributing to **Canon Visual Director**! 
 We welcome all kinds of contributions:
 我们欢迎各种形式的贡献：
 
-1. **📷 New Canon Optics Configurations (新镜头与色彩设置)**
-   - Add parameters for newly released Canon RF lenses or specialized color science profiles (e.g., Canon Log 3 simulation, Vintage Canon FD lenses).
-   - 补充佳能最新 RF 镜头、经典老镜（如 Canon FD）或色彩科学设置。
+1. **📷 New Real Optics Configurations (新镜头与色彩设置)**
+   - Add parameters for newly released realistic camera lenses or specialized color science profiles (e.g., Log simulation, Vintage lenses).
+   - 补充最新单反红圈镜头、经典老镜（如 Vintage Lenses）或色彩科学设置。
 
 2. **🧠 New Visual Triggers (新的传播触发器)**
    - Expand the 12-Trigger Model with new psychological or social virality triggers for cover design.
