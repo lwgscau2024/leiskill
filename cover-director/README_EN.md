@@ -101,7 +101,7 @@ Trigger this skill in supported AI Agent frameworks (e.g., Antigravity, OpenClaw
 
 ## 💡 Visual Showcase Gallery & Output Format
 
-The agent automatically evaluates 3 distinct creative angles and outputs Midjourney / Stable Diffusion prompts formatted with Canon optics and ratio specs (defaulting to WeChat / Editorial `--ar 2.35:1`):
+The agent automatically evaluates 3 distinct creative angles and outputs prompts formatted with Canon optics and natural language ratio descriptions (defaulting to WeChat / Editorial "2.35:1 ultra-wide cinematic aspect ratio format, panoramic framing"):
 
 ### 🖼️ Visual Metaphor Showcase Gallery
 
@@ -125,10 +125,10 @@ The agent automatically evaluates 3 distinct creative angles and outputs Midjour
 ### Concept 1: 【Key Visual Concept】 Thought Pain Reliever
 
 【English Prompt】
-Shot on Canon EOS R3 with Canon RF 85mm f/1.2L USM DS lens, minimalist advertising Key Visual concept. On a dark minimalist black marble surface, a crystal-clear glass medicine capsule rests in sharp focus. Encapsulated inside is a microscopic metallic human brain, its intricate gears jammed by a prominent red physical pause button symbol (⏸️). Deeply engraved into the marble surface is organic physical typography reading "PAIN RELIEVER". Lit with Canon's signature high-end studio lighting, single softbox casting crisp highlights. Ultra-shallow depth of field. Pure photographic realism, --ar 2.35:1
+Shot on Canon EOS R3 with Canon RF 85mm f/1.2L USM DS lens, minimalist advertising Key Visual concept. On a dark minimalist black marble surface, a crystal-clear glass medicine capsule rests in sharp focus. Encapsulated inside is a microscopic metallic human brain, its intricate gears jammed by a prominent red physical pause button symbol (⏸️). Deeply engraved into the marble surface is organic physical typography reading "PAIN RELIEVER". Lit with Canon's signature high-end studio lighting, single softbox casting crisp highlights. Ultra-shallow depth of field. Pure photographic realism, 2.35:1 ultra-wide cinematic aspect ratio format, panoramic framing
 
 【Chinese Prompt】
-佳能 EOS R3 拍摄，85mm f/1.2L USM DS 镜头，广告级 Key Visual 视觉概念。在极简黑色大理石台面上，静止平放着一颗高透光玻璃材质的透明医药胶囊。胶囊内部封存着一颗微型金属大脑，大脑内部的精密齿轮被一个红色的物理休止符按钮（⏸️）卡住。大理石表面以雕刻工艺深度嵌入着中文“思想止痛药”。单侧柔光箱勾勒出玻璃的高光轮廓，焦外极其柔美。极简、冷酷、真实摄影质感，--ar 2.35:1
+佳能 EOS R3 拍摄，85mm f/1.2L USM DS 镜头，广告级 Key Visual 视觉概念。在极简黑色大理石台面上，静止平放着一颗高透光玻璃材质的透明医药胶囊。胶囊内部封存着一颗微型金属大脑，大脑内部的精密齿轮被一个红色的物理休止符按钮（⏸️）卡住。大理石表面以雕刻工艺深度嵌入着中文“思想止痛药”。单侧柔光箱勾勒出玻璃的高光轮廓，焦外极其柔美。极简、冷酷、真实摄影质感，超宽屏 2.35:1 电影级宽银幕画幅构图
 ```
 
 ---

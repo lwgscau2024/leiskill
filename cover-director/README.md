@@ -101,9 +101,7 @@ cp -r leiskill/cover-director ~/.gemini/antigravity-cli/skills/
 
 ## 💡 视觉生成真实效果与输出示例 (Showcase Gallery)
 
-技能将自动输出 3 个不同切角的真实单反方案，包含中文/英文 Prompt 与参数设定（默认使用微信公众号 `--ar 2.35:1` 画幅）：
-
-### 🖼️ 真实生成效果画廊 (Visual Metaphor Showcase)
+技能将自动输出 3 个不同切角的真实单反方案，包含中文/英文 Prompt 与参数设定（默认使用微信公众号封面图尺寸“超宽屏 2.35:1 电影级宽银幕画幅构图”）：
 
 | 案例 1：【广告 KV 极简概念流】思想止痛药 | 案例 2：【戏剧冲突/传播 Trigger】认知反差 |
 | :---: | :---: |
@@ -125,10 +123,10 @@ cp -r leiskill/cover-director ~/.gemini/antigravity-cli/skills/
 ### 方案 1：【广告 KV 极简概念流】思想止痛药
 
 【中文 Prompt】
-佳能 EOS R3 拍摄，85mm f/1.2L USM DS 镜头，广告级 Key Visual 视觉概念。在极简黑色大理石台面上，静止平放着一颗高透光玻璃材质的透明医药胶囊。胶囊内部封存着一颗微型金属大脑，大脑内部的精密齿轮被一个红色的物理休止符按钮（⏸️）卡住。大理石表面以雕刻工艺深度嵌入着中文“思想止痛药”。单侧柔光箱勾勒出玻璃的高光轮廓，焦外极其柔美。极简、冷酷、真实摄影质感，--ar 2.35:1
+佳能 EOS R3 拍摄，85mm f/1.2L USM DS 镜头，广告级 Key Visual 视觉概念。在极简黑色大理石台面上，静止平放着一颗高透光玻璃材质的透明医药胶囊。胶囊内部封存着一颗微型金属大脑，大脑内部的精密齿轮被一个红色的物理休止符按钮（⏸️）卡住。大理石表面以雕刻工艺深度嵌入着中文“思想止痛药”。单侧柔光箱勾勒出玻璃的高光轮廓，焦外极其柔美。极简、冷酷、真实摄影质感，超宽屏 2.35:1 电影级宽银幕画幅构图
 
 【英文 Prompt】
-Shot on Canon EOS R3 with Canon RF 85mm f/1.2L USM DS lens, minimalist advertising Key Visual concept. On a dark minimalist black marble surface, a crystal-clear glass medicine capsule rests in sharp focus. Encapsulated inside is a microscopic metallic human brain, its intricate gears jammed by a prominent red physical pause button symbol (⏸️). Deeply engraved into the marble surface is organic physical typography reading "PAIN RELIEVER". Lit with Canon's signature high-end studio lighting, single softbox casting crisp highlights. Ultra-shallow depth of field. Pure photographic realism, --ar 2.35:1
+Shot on Canon EOS R3 with Canon RF 85mm f/1.2L USM DS lens, minimalist advertising Key Visual concept. On a dark minimalist black marble surface, a crystal-clear glass medicine capsule rests in sharp focus. Encapsulated inside is a microscopic metallic human brain, its intricate gears jammed by a prominent red physical pause button symbol (⏸️). Deeply engraved into the marble surface is organic physical typography reading "PAIN RELIEVER". Lit with Canon's signature high-end studio lighting, single softbox casting crisp highlights. Ultra-shallow depth of field. Pure photographic realism, 2.35:1 ultra-wide cinematic aspect ratio format, panoramic framing
 ```
 
 ---

@@ -73,13 +73,17 @@ description: >
   - **协议 A (物理内嵌)**：墨迹手写、器皿印字、玻璃水汽反射、文件表头压印、雕刻嵌入。
   - **协议 B (暗房压印)**：`integrated editorial typography with the text "TITLE", printed seamlessly into dark shadows`。
 
-### Layer 5: Platform Recommendation & Prompt Engineering (跨平台适配与代码生成)
-根据目标传播渠道自动分流策略与画幅：
-- **微信公众号 (2.35:1)**：新闻张力、电影中景、故事切面与阴影压印留白。
-- **小红书 (3:4 / 4:5)**：生活方式、高饱和色彩、情绪微距特写、强视觉符号。
-- **LinkedIn (16:9 / 1.91:1)**：商务极简、专业隐喻、冷调高质感、极客物证。
-- **X / Twitter (16:9)**：极简 KV、高认知冲突、符号化 Visual Metaphor。
-- **Instagram (1:1 / 4:5)**：电影美学、光影张力、极致摄影构图。
+### Layer 5: Natural Language Aspect Ratio & Multi-Platform Matrix (自然语言尺寸与多平台用途矩阵)
+根据目标自媒体平台与图像用途（封面图 vs 正文内配图）灵活配置画幅。**完全摒弃 `--ar ...` 物理代码参数**，一律采用 AI 图像大模型高感知的原生**自然语言画幅与构图描述**。若用户未显式指定，**默认使用微信公众号“封面图”尺寸**：
+
+- 🟢 **微信公众号 (WeChat Official Account)**：
+  - **封面图（默认首选）**：`超宽屏 2.35:1 电影级宽银幕画幅构图` / `2.35:1 ultra-wide cinematic aspect ratio format, panoramic framing`
+  - **正文内配图**：`16:9 经典横屏画幅构图` / `16:9 widescreen landscape framing` 或 `4:3 沉浸式人文横屏构图` / `4:3 standard horizontal framing`
+- 🔴 **小红书 / 抖音 / 朋友圈 (Xiaohongshu & Social Feeds)**：
+  - **封面图**：`3:4 竖屏高清视觉构图` / `3:4 vertical portrait aspect ratio framing`
+  - **正文卡片/切片**：`1:1 正方形经典画幅构图` / `1:1 square aspect ratio framing` 或 `9:16 全屏沉浸式竖屏构图` / `9:16 full-screen vertical framing`
+- 🔵 **LinkedIn / X (Twitter) / 博客**：
+  - **封面图/配图**：`16:9 极简商业横屏构图` / `16:9 minimalist widescreen landscape framing`
 
 ---
 
@@ -102,13 +106,14 @@ description: >
 - **Step 3: 12 Triggers 模型匹配**：显式锁定 1-2 个传播心理 Trigger。
 - **Step 4: 三向创意推翻竞合**：分别生成 Direction A（电影叙事）、Direction B（广告 KV）、Direction C（视觉隐喻）。
 - **Step 5: 相机器材与文字融入部署**：默认使用佳能 EOS 红圈光学系统，或根据切角动态匹配哈苏/莱卡器材与物理内嵌文字载体。
-- **Step 6: 跨平台策略适配与 Prompt 代码块生成**：输出分平台推荐与中英双语 Prompt（严格遵守：中文 Prompt 用中文物理文字，英文 Prompt 用英文物理文字）。
+- **Step 6: 跨平台与用途尺寸适配及 Prompt 生成**：根据平台与用途（封面图 vs 正文配图，默认微信公众号封面）匹配自然语言尺寸描述，输出中英双语 Prompt 代码块（严格遵守：中文 Prompt 用中文物理文字与中文自然语言尺寸；英文 Prompt 用英文物理文字与英文自然语言尺寸）。
 
 ---
 
 ## 🚫 绝对禁忌红线 (Red Lines)
 
-- ❌ **避免中英文物理文字语言错位**：禁止在中文 Prompt 中写入英文物理文字（如英文 "PAIN RELIEVER"），或在英文 Prompt 中写入中文物理文字。语言必须严格对齐（中文 Prompt -> 中文物理文字；英文 Prompt -> 英文物理文字）。
+- ❌ **避免使用 `--ar ...` 等代码参数**：禁止在生成的 Prompt 中出现 `--ar 2.35:1` 或类似 Midjourney 物理参数指令，必须统一使用自然流畅的摄影画幅构图描述（如“超宽屏 2.35:1 电影级宽银幕画幅构图”）。
+- ❌ **避免中英文物理文字与尺寸语言错位**：中文 Prompt 中的物理文字与尺寸必须用中文（如：“思想止痛药”，超宽屏 2.35:1 电影级宽银幕画幅构图）；英文 Prompt 中的物理文字与尺寸必须用英文（如："PAIN RELIEVER", 2.35:1 ultra-wide cinematic aspect ratio format）。
 - ❌ **避免直拍文章文字**：避免直接拍摄文章字面意思（如“程序员在电脑前开会”），因为这会显得平庸乏味，必须使用隐喻或高冲突 KV 制造视觉张力。
 - ❌ **避免 Camera-First 思维**：未经过隐喻与 Trigger 推演之前，避免直接堆砌镜头参数，因为没有故事内核的画面缺乏传播力。
 - ❌ **避免字画分离贴字 (No Disjointed Floating Text)**：不要使用悬浮的贴纸式文字，这会瞬间破坏单反光学营造的真实质感。请务必使用物理墨迹、压印等方式将文字有机融入环境。
@@ -120,7 +125,7 @@ description: >
 ## 📦 最终交付规范 (Final Output Format)
 
 为保持最终交付结果的干净、精洁与高可读性，**禁止输出多余的分析过程、推演日志与评估表格**。直接按以下结构输出 3 个不同切角的顶级摄影方案（默认统一优先使用佳能 EOS 单反拍摄）。
-**注意：如果用户未明确指定目标平台，默认使用微信公众号尺寸 (`--ar 2.35:1`)；生成的 Prompt 推荐使用 ChatGPT 图像 2.0（基于底层模型 gpt-image-2）生成图片效果最佳。**
+**注意：如果用户未明确指定目标平台与用途，默认使用微信公众号封面图尺寸（“超宽屏 2.35:1 电影级宽银幕画幅构图”）；生成的 Prompt 推荐使用 ChatGPT 图像 2.0（基于底层模型 gpt-image-2）生成图片效果最佳。**
 
 ---
 
@@ -132,12 +137,12 @@ description: >
 
 **【中文 Prompt】**
 ```text
-佳能 EOS R3 拍摄，85mm f/1.2L USM DS 镜头，广告级 Key Visual 视觉概念。在极简黑色大理石台面上，静止平放着一颗高透光玻璃材质的透明医药胶囊。胶囊内部封存着一颗微型金属大脑，大脑内部的精密齿轮被一个红色的物理休止符按钮（⏸️）卡住。大理石表面以雕刻工艺深度嵌入着中文“思想止痛药”。单侧柔光箱勾勒出玻璃的高光轮廓，焦外极其柔美。极简、冷酷、真实摄影质感，--ar 2.35:1
+佳能 EOS R3 拍摄，85mm f/1.2L USM DS 镜头，广告级 Key Visual 视觉概念。在极简黑色大理石台面上，静止平放着一颗高透光玻璃材质的透明医药胶囊。胶囊内部封存着一颗微型金属大脑，大脑内部的精密齿轮被一个红色的物理休止符按钮（⏸️）卡住。大理石表面以雕刻工艺深度嵌入着中文“思想止痛药”。单侧柔光箱勾勒出玻璃的高光轮廓，焦外极其柔美。极简、冷酷、真实摄影质感，超宽屏 2.35:1 电影级宽银幕画幅构图
 ```
 
 **【英文 Prompt】**
 ```text
-Shot on Canon EOS R3 with Canon RF 85mm f/1.2L USM DS lens, minimalist advertising Key Visual concept. On a dark minimalist black marble surface, a crystal-clear glass medicine capsule rests in sharp focus. Encapsulated inside is a microscopic metallic human brain, its intricate gears jammed by a prominent red physical pause button symbol (⏸️). Deeply engraved into the marble surface is organic physical typography reading "PAIN RELIEVER". Lit with Canon's signature high-end studio lighting, single softbox casting crisp highlights. Ultra-shallow depth of field. Pure photographic realism, --ar 2.35:1
+Shot on Canon EOS R3 with Canon RF 85mm f/1.2L USM DS lens, minimalist advertising Key Visual concept. On a dark minimalist black marble surface, a crystal-clear glass medicine capsule rests in sharp focus. Encapsulated inside is a microscopic metallic human brain, its intricate gears jammed by a prominent red physical pause button symbol (⏸️). Deeply engraved into the marble surface is organic physical typography reading "PAIN RELIEVER". Lit with Canon's signature high-end studio lighting, single softbox casting crisp highlights. Ultra-shallow depth of field. Pure photographic realism, 2.35:1 ultra-wide cinematic aspect ratio format, panoramic framing
 ```
 
 **【设计理由】**
@@ -149,12 +154,12 @@ Shot on Canon EOS R3 with Canon RF 85mm f/1.2L USM DS lens, minimalist advertisi
 
 **【中文 Prompt】**
 ```text
-(一段完整的中文 Prompt 代码块，包含真实单反机身镜头控制、物理文字描述、光影与 --ar 画幅参数)
+(一段完整的中文 Prompt 代码块，包含真实单反机身镜头控制、物理文字描述、光影与自然语言画幅构图描述)
 ```
 
 **【英文 Prompt】**
 ```text
-(一段完整的纯英文 Prompt 代码块，包含真实单反机身镜头控制、Organic Typography 物理文字、光学光影与 --ar 画幅参数)
+(一段完整的纯英文 Prompt 代码块，包含真实单反机身镜头控制、Organic Typography 物理文字、光学光影与英文自然语言画幅构图描述)
 ```
 
 **【设计理由】**
@@ -197,5 +202,6 @@ Shot on Canon EOS R3 with Canon RF 85mm f/1.2L USM DS lens, minimalist advertisi
 ---
 
 收到需求后，立即启动 **Cover Director 4.0** 逻辑推演，直接输出上述干净精洁的交付内容。
+
 
 
